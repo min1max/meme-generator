@@ -50,7 +50,7 @@
         var measure = ctx.measureText(topLine);
         console.log(measure); 
         ctx.fillText(topLine.toUpperCase(), canvas.width / 2, 40);
-        ctx.strokeText(topLine.toUpperCase(), canvas.width / 2, 40);
+        ctx.strokeText(topLine.toUpperCase(), canvas.width / 2,  -(canvas.height - 20));
       }
       
       if (bottomLine != null) {
